@@ -184,7 +184,7 @@ body {
   display: flex;
   width: 100%;
   height: 15vh;
-  padding: 0px 10vw 0px 18%;
+  padding: 0px 15% 0px 18%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -795,20 +795,20 @@ body {
 .contactmebutton {
   min-width: 83px;
   padding-right: 35px;
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5e5e5e
   letter-spacing: 0.5px;
   cursor: pointer;
 }
 
 .contactmebutton:hover {
-  font-weight: 700;
+  text-decoration: underline;
 }
 
 .textdivaboutme {
-  width: 70%;
-  margin-left: 90px;
-  padding: 28px;
+  width: 100%;
+  padding: 0px 28px 28px;
   color: #000;
 }
 
@@ -846,16 +846,16 @@ body {
   position: absolute;
   left: 80px;
   top: 0px;
-  right: 80px;
+  right: 0px;
   bottom: 0px;
   z-index: 9998;
   display: none;
   overflow: hidden;
-  width: 65%;
+  width: 94%;
   height: 100vh;
   margin-top: 15vh;
   margin-right: auto;
-  margin-left: 17%;
+  margin-left: auto;
   padding-left: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -882,8 +882,12 @@ body {
   padding-bottom: 8px;
 }
 
-.social-box {
+.mailfield-box {
   margin-top: 50px;
+}
+
+.social-box {
+  margin-top: 30px;
 }
 
 .dribble-link {
@@ -1608,7 +1612,6 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 65%;
   height: auto;
   margin-top: 0vh;
   margin-right: 0px;
@@ -1637,8 +1640,7 @@ body {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: hsla(0, 0%, 98%, .93);
-  box-shadow: 4px 5px 20px 0 hsla(229.65517241379308, 42.03%, 13.53%, 0.41);
+  background-color: #ffffff;
 }
 
 .mediv {
@@ -1697,8 +1699,6 @@ body {
 
 .contactbutton-x-copy.xbutton {
   display: block;
-  min-width: 83px;
-  padding-right: 50px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -1717,11 +1717,11 @@ body {
 }
 
 .heading-4 {
-  margin-bottom: 60px;
   font-size: 33px;
   font-weight: 500;
-  text-align: right;
+  text-align: left;
   text-transform: none;
+  line-height: 0;
 }
 
 .submit-button {
@@ -1731,7 +1731,7 @@ body {
 }
 
 .message-txt {
-  margin-top: 43px;
+  margin-top: 20px;
   font-weight: 400;
 }
 
@@ -3423,8 +3423,9 @@ body {
 
 .heading-6 {
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
+  color: #e91e63;
 }
 
 .success-message {
@@ -3972,7 +3973,7 @@ body {
     align-items: center;
   }
   .case-div-trailer {
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .imagecase {
     -webkit-filter: brightness(23%) contrast(132%);
@@ -7277,4 +7278,3 @@ body {
     grid-row-end: 3;
   }
 }
-

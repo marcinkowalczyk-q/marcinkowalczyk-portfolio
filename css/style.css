@@ -304,6 +304,8 @@ input[type="reset"] {
 }
 .w-form {
   margin: 0 0 15px;
+  max-width: 500px;
+  min-width: 320px;
 }
 .w-form-done {
   display: none;
