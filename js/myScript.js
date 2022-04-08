@@ -1,3 +1,20 @@
+function PopUp(){
+  document.getElementById('modal-name').style.display="block"; 
+}
+$(document).ready(function(){
+  let key = 'hadModal',
+  hadModal = localStorage.getItem(key);
+  if (!hadModal){
+  setTimeout(function(){
+     {PopUp();}
+  },1500)};
+  localStorage.setItem(key, true);
+  
+});
+  
+$(".close-modal, .modal-sandbox").click(function(){
+  document.getElementById('modal-name').style.display="none"});
+
 /*!
  * Webflow: Front-end site library
  * @license MIT
