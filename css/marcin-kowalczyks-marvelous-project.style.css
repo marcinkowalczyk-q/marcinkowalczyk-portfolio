@@ -62,7 +62,7 @@ body {
   position: relative;
   width: 80%;
   max-width: 920px;
-  margin: calc(50vh - 228px) auto auto auto;
+  margin: calc(50vh - 280px) auto auto auto;
   animation-name: modalbox;
   animation-duration: .4s;
   animation-timing-function: ease-in;
