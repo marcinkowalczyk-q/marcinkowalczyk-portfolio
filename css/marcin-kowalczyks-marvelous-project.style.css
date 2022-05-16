@@ -5107,6 +5107,9 @@ body {
     margin-top: 0px;
     padding-bottom: 0px;
   }
+  .btn-close {
+    position: inherit;
+  }
   .hover-box-01 {
     position: static;
     display: -webkit-box;
