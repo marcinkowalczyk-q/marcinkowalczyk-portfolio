@@ -5103,6 +5103,9 @@ body {
     font-size: 1.5rem;
     line-height: 130%;
   }
+  .modal-body {
+    font-size: 0.95rem;
+  }
   .hero-section {
     position: absolute;
     width: 100vw;
