@@ -5099,6 +5099,11 @@ body {
 }
 
 @media (max-width: 479px) {
+  .headline-modal {
+    font-size: 1.5rem;
+    line-height: 130%;
+  }
+  }
   .hero-section {
     position: absolute;
     width: 100vw;
